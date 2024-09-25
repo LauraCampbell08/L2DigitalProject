@@ -18,10 +18,11 @@ h1 {
 }
 h2 {
  font-family: "Rowdies", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
 	}
 
+/*Navigation Component*/
 
  ul {
     text-align:center;
@@ -49,7 +50,7 @@ top: 0;
 
 
 a:hover {
-    background-color: rebeccapurple;
+    background-color: rebeccaPurple;
     color: white;
 	padding: 15px;
 }
@@ -94,7 +95,7 @@ nav li.current_page_item  {
 }
 
 
-/*background*/ 
+/*background component*/ 
 header {
 	width: initial;
 	height: 600px;
@@ -105,11 +106,11 @@ header {
 	color: white;
 	background-image: url("images /showQuest.png");
 	background-size: cover;
+	/* alt for header image: Photo from 2022 Kuranui Showquest, shows a purple theme and an arrangement of senior dancers in white costumes, preforming the senior contemorary section of their performance. */
 }
 
 
-#image1 {
-	
+#imageOne {
 	background-size: 100%; 
 	max-width: 100%;
 	height: 300px;
@@ -118,31 +119,23 @@ header {
 } 
 
 #imageTwo {
-	background-image: url("images /showQuest3.png");
+	background-image: url("images /showQuestThree.png");
 	background-size: 100%; 
 	max-width: 100%;
 	height: 300px;
 	background-attachment: fixed;
 } 
 
-#image3 {
-	background-image: url("images /showQuest4.png");
-	background-size: 100%; 
-	max-width: 100%;
-	height: 300px;
-	background-attachment: fixed;
-} 
 
-/*video for Showquest 2024 theme*/
+/*Video for Showquest 2024 theme*/
 iframe {
   display: block;
   margin: auto;
 } 
 
-/*typing effect*/
+/*typing effect for H1 header*/
 .wrapper {
   height: 100vh;
-  /*This part is important for centering*/
   display: grid;
   place-items: center;
 }
@@ -157,13 +150,13 @@ iframe {
   font-size: 2em;
 }
 
-@keyframes typing {
+@keyFrames typing {
   from {
     width: 0
   }
 }
     
-@keyframes blink {
+@keyFrames blink {
   50% {
     border-color: transparent
   }
