@@ -12,7 +12,7 @@ section {
 	text-align: left;
 	
 		}
-
+/*Font Component*/
 h1 {
 	font-size: 50px;
 }
@@ -135,7 +135,12 @@ section {
 	background-attachment: fixed;
 } 
 
+/*video for Showquest 2024 theme*/
 iframe {
   display: block;
   margin: auto;
 } 
+
+/*typing effect*/
+
+
